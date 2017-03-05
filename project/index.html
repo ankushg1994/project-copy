@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explora</title>
+    <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <link rel="icon" href="http://semempires.com/templates/mytmp/img/medical.png">
+    <link rel="stylesheet" type="text/css" href="custom.css" />
+      <link href="hover-master/css/hover.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="css/hover.css" rel="stylesheet" media="all">
+     <script src="https://use.fontawesome.com/c2f69e7dbb.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-default">
+    <!-- nav section starts -->
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <section>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="index.html"><img class="hvr-pulse-grow"  src="http://semempires.com/templates/mytmp/img/medical.png" width=85px; height=45px; /></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <form class="navbar-form navbar-right">
+          	<a href="index.html" class="hvr-icon-spin">Explora</a>
+      <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search YouR Question...">
+        <div class="input-group-btn">
+       <button class="btn btn-default hvr-rectangle-out" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+       </div>
+      </div>
+    </form>
+
+
+
+
+
+      </section>
+      </div>
+    </div>
+  </nav>
+  <!--nav section ends  -->
+  <br />
+  <!-- post question section starts -->
+    <div class="container-fluid">
+      <div class="col-md-8 col-sm-10">
+      <section class="postquestion">
+      <button type="button" class="btn btn-lg btn-outline-success hvr-shadow-radial"  data-toggle="modal" data-target="#myModal">Post Question</button>
+
+      <!-- Modals -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+          <!-- Modals content-->
+          <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                 <h4 class="modal-title" id="myModalLabel">Post YouR Question</h4>
+            </div>
+            <div class="modal-body">
+
+              <label for="email">EMAIL-ID:<br /> <input type="email" value="" name="emailid" size="30" placeholder="Enter a valid email address"><br /><br />
+              <label for="phone">PHONE NO:<br /> <input type="text" value="" name="phno" size="30" maxlength="10" placeholder="Enter a valid phone number" pattern="[0-9]{10}"><br /><br />
+                <li class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle dropbutton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select  Semester <i class="hvr-icon-forward" aria-hidden="true"></i></button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <li><a class="dropdown-item" href="#">First</a></li>
+                      <li><a class="dropdown-item" href="#">Second</a></li>
+                      <li><a class="dropdown-item" href="#">Third</a></li>
+                      <li><a class="dropdown-item" href="#">Fourth</a></li>
+                      <li><a class="dropdown-item" href="#">Fifth</a></li>
+                      <li><a class="dropdown-item" href="#">Sixth</a></li>
+                      <li><a class="dropdown-item" href="#">Seventh</a></li>
+                      <li><a class="dropdown-item" href="#">Eighth</a></li>
+                    </ul>
+                </li>
+               <li><label for="message-text" >Post Your Question Here:</label>
+              <textarea ></textarea></li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Post</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      </section>
+    </div>
+    <div class="col-md-4 col-sm-2">
+      <section class="semester">
+    <div class="dropdown">
+  <button class="btn btn-lg btn-outline-success hvr-shadow-radial">Select Semester</button>
+  <div class="dropdown-content">
+    <ul>
+    <li><a href="#" class="hvr-icon-forward">First</a></li>
+      <li><a href="#" class="hvr-icon-forward">Second</a></li>
+        <li><a href="#" class="hvr-icon-forward">Third</a></li>
+          <li><a href="#" class="hvr-icon-forward">Fourth</a></li>
+            <li><a href="#" class="hvr-icon-forward">Fifth</a></li>
+              <li><a href="#" class="hvr-icon-forward">Sixth</a></li>
+                <li><a href="#" class="hvr-icon-forward">Seventh</a></li>
+                    <li><a href="#" class="hvr-icon-forward">Eighth</a></li>
+
+    </ul>
+
+  </div>
+</div>
+    </div>
+    </section>
+    </div>
+    </div>
+    <!-- post question section ends -->
+
+
+     <br />
+
+     <div class="row" style="max-width:100%;margin:0;">
+       <div class="panel with-nav-tabs panel-default">
+                       <div class="panel-heading">
+                               <ul class="nav nav-pills nav-justified">
+                                   <li><a class="hvr-sweep-to-right active"href="#recenttab" data-toggle="tab">Recent</a></li>
+                                   <li><a class="hvr-sweep-to-top"href="#trendingtab" data-toggle="tab">Trending</a></li>
+                                   <li><a class="hvr-sweep-to-left"href="#populartab" data-toggle="tab">Popular</a></li>
+
+                               </ul>
+                             </div>
+                             <div class="panel-body">
+                                 <div class="tab-content">
+                                     <div class="tab-pane fade in active tab1" id="recenttab">
+                                       <div class="col-md-2 col-xs-4">
+                                         <section class="tab1-left">
+                                           <img class="tabimages" src="" />
+                                           <h3>Mukesh Dubey</h3>
+                                           <h5>02 Mar,2017</h5>
+                                         </section>
+                                       </div>
+                                       <div class="col-md-10 col-xs-8">
+                                       <section class="tab1-right">
+                                         <h2>Which Indian city has been ranked as the Best city in the fourth edition of the Annual Survey of India’s City Systems 2016 by Janaagraha Centre for Citizenship and Democracy ?</h2>
+                                         <p>According to the fourth edition of the Annual Survey of India’s City Systems 2016 by Bengaluru-based advocacy group Janaagraha Centre for Citizenship and Democracy, Thiruvananthapuram, Kerala has been ranked as the top Indian city to manage urban governance. Thiruvananthapuram which also ranked No. 1 in 2015 was evaluated against 21 major cities across 18 states of India and scored 4.4. Pune and Kolkata was ranked the second and third best cities respectively that were tested on various urban governance parameters with a score of 4.2 and 4.1 respectively.</p>
+                                         </section>
+                                       </div>
+                                       &nbsp;
+                                       <hr>
+                                       <div class="col-md-2 col-xs-4">
+                                         <section class="tab1-left">
+                                           <img class="tabimages" src="" />
+                                           <h3>Rohit Malhotra</h3>
+                                           <h5>02 Mar,2017</h5>
+                                         </section>
+                                       </div>
+                                       <div class="col-md-10 col-xs-8">
+                                       <section class="tab1-right">
+                                         <h2>The National Mission for Clean Ganga (NMCG) has signed an MoU with which organization on March 1, 2017 for the speedy implementation and success of Namami Gange?</h2>
+                                         <p>The National Mission for Clean Ganga (NMCG) under Ministry of Water Resources, River Development and Ganga Rejuvenation has signed an MoU with Rotary India in New Delhi on March 1, 2017. Aim: To make Namami Gange programme a mass movement through the involvement of more and more voluntary organizations. The MoU was signed by Director General, National Mission for Clean Ganga Shri UP Singh and Vice Chairman of Rotary India Shri PT Prabhakar. The MoU shall remain in force for two years. Rotary India will support clean Ganga mission through their ‘WASH in Schools’ program in various schools.</p>
+                                         </section>
+                                       </div>
+                                     </div>
+                                     <div class="tab-pane fade" id="trendingtab">
+                                       <div class="col-md-2 col-xs-4">
+                                         <section class="tab1-left">
+                                           <img class="tabimages" src="" />
+                                           <h3>Gaurav Kumar</h3>
+                                           <h5>02 Feb,2017</h5>
+                                         </section>
+                                       </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <script src="js/jquery-1.11.3.min.js"></script>
+     <script src="js/bootstrap.min.js"></script>
+
+
+
+       <script>
+       $(document).ready(function(){
+           $("#myBtn").click(function(){
+               $("#myModal").modal();
+                $(this).find('input[type="text"]').focus();
+           });
+       });
+       </script>
+
+
+
+
+
+
+  </body>
+</html>
